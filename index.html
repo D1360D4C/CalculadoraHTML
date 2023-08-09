@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="graf.css"> 
+<script src="js.js"></script>
 </head>
 <body>
+    <div class="cuerpo">
+        <div class="uno1">
+    <form name="Calculadora">
     
+    <input type="text" name="txtboxnros" value="0" disabled>
+    
+    <input type="button" value="1" onclick="ingresarnumero(this.value)">
+    <input type="button" value="2" onclick="ingresarnumero(this.value)">
+    <input type="button" value="3" onclick="ingresarnumero(this.value)">
+    
+    <input type="button" value="4" onclick="ingresarnumero(this.value)">
+    <input type="button" value="5" onclick="ingresarnumero(this.value)">
+    <input type="button" value="6" onclick="ingresarnumero(this.value)">
+    <input type="button" value="7" onclick="ingresarnumero(this.value)">
+    <input type="button" value="8" onclick="ingresarnumero(this.value)">
+    <input type="button" value="9" onclick="ingresarnumero(this.value)">
+    <input type="button" value="0" onclick="ingresarnumero(this.value)">
+    
+    <input type="button" value="." onclick="ingresarnumero(this.value)">
+    <input type="button" value="+" onclick="ingresaoperacion(this.value)">
+    <input type="button" value="-" onclick="ingresaoperacion(this.value)">
+    <input type="button" value="*" onclick="ingresaoperacion(this.value)">
+    <input type="button" value="/" onclick="ingresaoperacion(this.value)">
+    
+    <input type="button" value="^" onclick="ingresaoperacion('**')">
+    <input type="button" value="√" onclick="raiz()">
+    <input type="button" value="C" onclick="limpiar()">
+    <input type="button" value=" = " onclick="resultado()">
+    
+    </form>
+    </div>
+    </div>
 </body>
 </html>
