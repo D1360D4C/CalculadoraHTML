@@ -1,6 +1,6 @@
 
 var numpantalla="0";
-
+var x = 0;
  
 function ingresarnumero(x)
 {
